@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FlightCodingTest.Contracts\FlightCodingTest.Contracts.csproj" />
+    <ProjectReference Include="..\FlightCodingTest.Domain\FlightCodingTest.Domain.csproj" />
+    <ProjectReference Include="..\FlightCodingTest.IRepositories\FlightCodingTest.IRepositories.csproj" />
+  </ItemGroup>
+
+</Project>

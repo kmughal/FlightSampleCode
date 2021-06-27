@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FlightCodingTest.Contracts\FlightCodingTest.Contracts.csproj" />
+    <ProjectReference Include="..\FlightCodingTest.Domain\FlightCodingTest.Domain.csproj" />
+    <ProjectReference Include="..\FlightCodingTest.FlightFilters\FlightCodingTest.FlightFilters.csproj" />
+    <ProjectReference Include="..\FlightCodingTest.Infrastructure\FlightCodingTest.Ioc.csproj" />
+    <ProjectReference Include="..\FlightCodingTest.IRepositories\FlightCodingTest.IRepositories.csproj" />
+    <ProjectReference Include="..\FlightCodingTest.Services\FlightCodingTest.Services.csproj" />
+    <ProjectReference Include="..\IFlightRepostiry.Repositories\FlightRepostiry.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
